@@ -1,3 +1,11 @@
+@font-face{
+ font-family: 'Open Sans';
+src:url("libs/fonts/OpenSans-Regular.ttf");
+}
+@font-face{
+  font-family: 'Lato';
+  src:url("libs/fonts/Lato-Regular.ttf");
+}
 html, body {
     font-size: 100%;
     background: #fff;
