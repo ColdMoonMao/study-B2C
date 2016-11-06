@@ -1036,9 +1036,7 @@ ul.multi-column-dropdown h6 {
 	.collection .row .x2{
 	max-width: 280px;
   }
-.collection div.row div.x2 div.item {
- 	padding-right: 0;
- }
+
  /*    .collection .row .x2 p{
 			padding-right: 0;
 		 }
@@ -1064,19 +1062,20 @@ ul.multi-column-dropdown h6 {
 	/*display: none;*/
 	z-index: 10;
  }
-	.cover-hover .view {
-		width: 200px;
-		opacity: 0;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translateX(-50%);
-		transition: all .5s ease-in-out;
-	-webkit-transition:all .5s ease-in-out;
-	-moz-transition:all .5s ease-in-out;
-	-o-transition:all .5s ease-in-out;
-	z-index: 5;
-	}
+ .cover-hover .view {
+ 	width: 200px;
+ 	opacity: 0;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translateX(-50%);
+ 	transition: all .5s ease-in-out;
+ 	-webkit-transition: all .5s ease-in-out;
+ 	-moz-transition: all .5s ease-in-out;
+ 	-o-transition: all .5s ease-in-out;
+ 	z-index: 5;
+ }
+
 
 	.cover-hover .view a {
 		padding: 10px 20px;
@@ -1121,8 +1120,16 @@ ul.multi-column-dropdown h6 {
 		.cover-hover:hover .ratting{
 			opacity: 1;
 		}
-		/*遮罩效果 结束*/
-		/*collection hover 文字变色动画*/
+/*遮罩效果 结束*/
+@media (max-width: 990px){
+	.x2 .cover-hover .view{
+		top: 35%;
+	}
+	.collection div.row div.x2 div.item {
+ 	padding-right: 0;
+ }
+}
+/*collection hover 文字变色动画*/
 			.collection .row .context a {
 				transition: .5s ease-in-out;
 				-webkit-transition: .5s ease-in-out;
