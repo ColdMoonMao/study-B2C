@@ -806,6 +806,9 @@ ul.multi-column-dropdown h6 {
 .intro-foot .context h3 i{
 	font-size: .4em;
 }
+.intro-foot .contain-mid-up {
+    margin-bottom: 12px;
+}
 /*.intro-foot .contain-l p{
 	font-size: 1.6em;
 }*/
@@ -832,7 +835,20 @@ ul.multi-column-dropdown h6 {
 }
 @media (max-width: 992px){
 .intro-foot .contain-mid-up{
-	margin-bottom: 10px;
+	margin-bottom: 9px;
+}
+}
+@media (max-width: 768px){
+.intro-foot .contain-mid-up{
+	margin-bottom: 8px;
+}
+.intro-foot .contain-r .context p, .intro-foot .contain-mid .context p {
+    font-size: 18px;
+}
+}
+@media (max-width: 690px){
+.intro-foot .contain-r .context p, .intro-foot .contain-mid .context p {
+    	font-size: 16px;
 }
 }
 @media (max-width: 620px){
